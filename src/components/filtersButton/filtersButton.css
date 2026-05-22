@@ -1,0 +1,22 @@
+.filter {
+    height: 36px;
+    width: 36px;
+    border: 0;
+    background-color: #FCFCFC;
+
+    /* Центрирование */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Чтобы кнопка нажималась */
+    cursor: pointer;
+    border-radius: 4px;
+
+    background-color: var(--input-bg);
+}
+
+.filter img {
+    width: 20px;
+    height: auto;
+}

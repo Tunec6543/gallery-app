@@ -1,0 +1,36 @@
+/* index.css */
+:root {
+    /* Цвета для светлой темы */
+    --bg-main: white;
+    --text-color: black;
+    --card-bg: rgba(255, 255, 255);
+    --input-bg: #FCFCFC;
+    --input-border: #DEDEDE;
+    --accent-color: #9B4B4B;
+}
+
+body.dark {
+    /* Цвета для темной темы */
+    --bg-main: #121212;
+    --text-color: #f0f0f0;
+    --card-bg: rgba(40, 40, 40); /* Темная плашка на карточке */
+    --input-bg: #1A1818;
+    --input-border: none;
+    --accent-color: rgb(171, 137, 86); 
+}
+
+body {
+    max-width: 84%;
+    background-color: var(--bg-main);
+    color: var(--text-color);
+    margin: 0 auto;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+* {
+    transition: transform 0.3s ease-in-out, background-color 0.3s, color 0.3s;
+}
+
+h1, h2, h3, h4, p, span {
+  color: var(--text-color);
+}

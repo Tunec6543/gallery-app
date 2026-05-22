@@ -1,0 +1,140 @@
+.filters {
+    position: fixed;
+    top: 0; right: 0;
+    width: 380px;
+    height: 100%;
+    background-color: var(--bg-main);
+    color: var(--text-color);
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    z-index: 3000;
+    box-sizing: border-box;
+    font-family: 'Cormorant SC', serif;
+    animation: slideIn 0.4s ease-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+.filters-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close {
+    background: none; border: none;
+    font-size: 24px; cursor: pointer;
+    color: var(--text-color);
+}
+
+.filter-group {
+    margin-top: 30px;
+}
+
+.group-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.plus-minus { font-size: 22px; font-weight: 300; }
+
+/* Кастомный селект */
+.custom-select {
+    position: relative;
+    margin-top: 15px;
+    border: 1px solid #DEDEDE;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.select-trigger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #808080;
+}
+
+.arrow-down { font-size: 10px; }
+
+.select-options {
+    position: absolute;
+    top: 100%; left: -1px;
+    width: 100%;
+    background: var(--bg-main);
+    border: 1px solid #DEDEDE;
+    z-index: 10;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+/* Поля годов */
+.year-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.year-row input {
+    width: 85px;
+    height: 38px;
+    border: 1px solid #DEDEDE;
+    background: transparent;
+    color: var(--text-color);
+    text-align: center;
+    font-family: inherit;
+}
+
+.dash { color: #DEDEDE; }
+
+/* Футер */
+.filter-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.btn-show {
+    background: none; border: none;
+    border-bottom: 1px solid var(--text-color);
+    color: var(--text-color);
+    font-family: inherit;
+    font-weight: bold; font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-clear {
+    background: none; border: none;
+    color: #B3B3B3;
+    font-family: inherit;
+    font-weight: bold; font-size: 14px;
+    cursor: pointer;
+}
+
+/* Темная тема */
+body.dark .custom-select, 
+body.dark .year-row input, 
+body.dark .select-options {
+    background-color: #1A1818;
+    border-color: #333;
+}

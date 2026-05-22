@@ -1,0 +1,27 @@
+.searcH {
+    height: 36px;
+    width: 336px;
+    border: 1px solid #DEDEDE;
+    border-radius: 4px;
+    font-size: 14px;
+    background-image: url("../../assets/objects/search-black.svg");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 16px; 
+    padding-left: 35px; 
+    box-sizing: border-box;
+    outline: none;
+    margin-right: 25px;
+    background-color: var(--input-bg);
+    border: 1px solid var(--input-border);
+    color: var(--text-color);
+
+    &:focus{
+        border-color: #575757;
+    }
+    
+}
+
+body.dark .searcH {
+    background-image: url("../../assets/objects/search-white.svg");
+}

@@ -1,0 +1,53 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 80px 0 40px; /* Большой отступ сверху, чтобы пагинация не прилипала к карточкам */
+    font-family: 'Inter', sans-serif;
+    user-select: none;
+}
+
+.page-numbers {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.page-item, .page-arrow, .page-dots {
+    font-size: 18px;
+    color: #B3B3B3; /* Светло-серый по умолчанию */
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+/* Активная страница: светлый квадрат вокруг цифры */
+.page-item.active {
+    background-color: #F2F2F2;
+    color: #000;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: default;
+}
+
+.page-arrow.disabled {
+    opacity: 0.2;
+    cursor: default;
+}
+
+/* Эффекты при наведении (для галочки) */
+.page-item:hover:not(.active), .page-arrow:not(.disabled):hover {
+    color: #000;
+}
+
+/* Поддержка темной темы */
+body.dark .page-item.active {
+    background-color: #1A1818; /* Твой фирменный цвет */
+    color: #FFF;
+}
+
+body.dark .page-item:hover:not(.active), 
+body.dark .page-arrow:not(.disabled):hover {
+    color: #FFF;
+}

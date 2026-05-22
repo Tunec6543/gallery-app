@@ -1,0 +1,142 @@
+[
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "year": 1503,
+    "title": "Mona Lisa",
+    "location": "Louvre Museum, Paris",
+    "artist": "Leonardo da Vinci"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "year": 1889,
+    "title": "The Starry Night",
+    "location": "MoMA, New York",
+    "artist": "Vincent van Gogh"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/The_Scream.jpg/800px-The_Scream.jpg",
+    "year": 1893,
+    "title": "The Scream",
+    "location": "National Gallery, Oslo",
+    "artist": "Edvard Munch"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Goya_Saturno_devorando_a_su_hijo.jpg/800px-Goya_Saturno_devorando_a_su_hijo.jpg",
+    "year": 1823,
+    "title": "Saturn Devouring His Son",
+    "location": "Museo del Prado, Madrid",
+    "artist": "Francisco Goya"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+    "year": 1484,
+    "title": "The Birth of Venus",
+    "location": "Uffizi Gallery, Florence",
+    "artist": "Sandro Botticelli"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg/800px-Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg",
+    "year": 1930,
+    "title": "American Gothic",
+    "location": "Art Institute of Chicago",
+    "artist": "Grant Wood"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/800px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+    "year": 1659,
+    "title": "Self-Portrait",
+    "location": "National Gallery of Art, Washington D.C.",
+    "artist": "Rembrandt van Rijn"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg",
+    "year": 1665,
+    "title": "Girl with a Pearl Earring",
+    "location": "Mauritshuis, The Hague",
+    "artist": "Johannes Vermeer"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/The_last_supper_-_Da_Vinci_Apr_2012.jpg/1280px-The_last_supper_-_Da_Vinci_Apr_2012.jpg",
+    "year": 1498,
+    "title": "The Last Supper",
+    "location": "Santa Maria delle Grazie, Milan",
+    "artist": "Leonardo da Vinci"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1280px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg",
+    "year": 1512,
+    "title": "The Creation of Adam",
+    "location": "Sistine Chapel, Vatican",
+    "artist": "Michelangelo"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Caravaggio_-_The_Calling_of_Saint_Matthew.jpg/1280px-Caravaggio_-_The_Calling_of_Saint_Matthew.jpg",
+    "year": 1600,
+    "title": "The Calling of Saint Matthew",
+    "location": "San Luigi dei Francesi, Rome",
+    "artist": "Caravaggio"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/800px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
+    "year": 1656,
+    "title": "Las Meninas",
+    "location": "Museo del Prado, Madrid",
+    "artist": "Diego Velazquez"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/800px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+    "year": 1818,
+    "title": "Wanderer above the Sea of Fog",
+    "location": "Hamburger Kunsthalle, Hamburg",
+    "artist": "Caspar David Friedrich"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg/1280px-Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg",
+    "year": 1830,
+    "title": "Liberty Leading the People",
+    "location": "Louvre Museum, Paris",
+    "artist": "Eugene Delacroix"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/1280px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg",
+    "year": 1886,
+    "title": "A Sunday on La Grande Jatte",
+    "location": "Art Institute of Chicago",
+    "artist": "Georges Seurat"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Bosch_Garden_of_Earthly_Delights.jpg/1280px-Bosch_Garden_of_Earthly_Delights.jpg",
+    "year": 1515,
+    "title": "The Garden of Earthly Delights",
+    "location": "Museo del Prado, Madrid",
+    "artist": "Hieronymus Bosch"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/The_Persistence_of_Memory.jpg/1280px-The_Persistence_of_Memory.jpg",
+    "year": 1931,
+    "title": "The Persistence of Memory",
+    "location": "MoMA, New York",
+    "artist": "Salvador Dali"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project.jpg/1280px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project.jpg",
+    "year": 1563,
+    "title": "The Tower of Babel",
+    "location": "Kunsthistorisches Museum, Vienna",
+    "artist": "Pieter Bruegel the Elder"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1280px-Tsunami_by_hokusai_19th_century.jpg",
+    "year": 1831,
+    "title": "The Great Wave off Kanagawa",
+    "location": "Metropolitan Museum of Art, New York",
+    "artist": "Katsushika Hokusai"
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nighthawks_by_Edward_Hopper_1942.jpg/1280px-Nighthawks_by_Edward_Hopper_1942.jpg",
+    "year": 1942,
+    "title": "Nighthawks",
+    "location": "Art Institute of Chicago",
+    "artist": "Edward Hopper"
+  }
+]
