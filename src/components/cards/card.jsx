@@ -3,7 +3,7 @@ import './card.css';
 export function Card({ title, year, url, artist, location }) {
   return (
     <div className="size">
-      {/* Теперь src принимает чистую строку-ссылку из API */}
+
       <img
         loading="lazy"
         src={url}

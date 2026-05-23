@@ -183,13 +183,6 @@
   }
 }
 
-.container {
-  justify-content: center;
-  gap: 50px;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: row wrap;
-}
 
 .theme{
   display: flex;
@@ -232,12 +225,26 @@
 .slider-wrapper {
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 
 .slider-container {
   display: grid;
-  grid-template-columns: repeat(3, 392px);
-  grid-template-rows: repeat(2, 260px);
+
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  transition: opacity 0.3s ease;
+  width: 100%;
+  max-width: 1200px;
+}
+
+@media (max-width: 1024px) {
+  .slider-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .slider-container {
+    grid-template-columns: 1fr;
+  }
 }

@@ -2,11 +2,11 @@
 
 .size {
     position: relative;
-    width: 392px;
-    height: 260px;
-    min-width: 392px; /* Фиксирует ширину в слайдере */
-    flex-shrink: 0;   /* Запрещает сжимать карточку */
-    overflow: hidden; 
+    width: 100%;
+    max-width: 392px;
+    aspect-ratio: 392 / 260;
+
+    overflow: hidden;
     transition: all 0.5s ease-in-out;
     border-radius: 8px;
 }
@@ -104,12 +104,9 @@
     color: var(--accent-color);
 }
 
-/* Мобильный масштаб */
 @media (max-width: 1024px) {
     .size {
-        width: 100% !important;
-        max-width: 100% !important;
-        min-width: 0 !important; /* На мобильных разрешаем адаптивность под ширину экрана */
+        max-width: 100%;
     }
 
     .size .text, .size:hover .text {
@@ -124,8 +121,8 @@
     }
 
     .text::after {
-        content: '→' !important;
-        display: flex !important;
+        content: '→';
+        display: flex;
         position: absolute;
         right: 0;
         top: 0;
@@ -141,16 +138,4 @@
     .info-main, .info-hover {
         width: calc(100% - 65px) !important;
     }
-}
-
-
-.slider-track {
-  display: grid;
-
-  grid-template-columns: repeat(3, 392px);
-  grid-template-rows: repeat(2, 260px);
-
-  gap: 30px;
-
-  grid-auto-flow: column;
 }

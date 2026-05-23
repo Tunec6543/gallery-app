@@ -4,12 +4,11 @@
     border: 0;
     background-color: #FCFCFC;
 
-    /* Центрирование */
     display: flex;
     justify-content: center;
     align-items: center;
     
-    /* Чтобы кнопка нажималась */
+
     cursor: pointer;
     border-radius: 4px;
 

@@ -45,7 +45,6 @@
 
 .plus-minus { font-size: 22px; font-weight: 300; }
 
-/* Кастомный селект */
 .custom-select {
     position: relative;
     margin-top: 15px;
@@ -86,7 +85,6 @@
     color: var(--text-color);
 }
 
-/* Поля годов */
 .year-row {
     display: flex;
     align-items: center;
@@ -131,7 +129,6 @@
     cursor: pointer;
 }
 
-/* Темная тема */
 body.dark .custom-select, 
 body.dark .year-row input, 
 body.dark .select-options {
