@@ -5,10 +5,10 @@ export function Card({ title, year, url, artist, location }) {
     <div className="size">
 
       <img
-        loading="lazy"
         src={url}
         alt={title}
         onError={(e) => {
+          e.target.onerror = null;
           e.target.src = `https://picsum.photos/seed/${title}/400/300`;
         }}
       />

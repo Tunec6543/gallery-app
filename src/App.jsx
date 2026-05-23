@@ -23,21 +23,42 @@ function App() {
     yearRange: { from: "", to: "" }
   });
 
-  // 🔥 ПАГИНАЦИЯ
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
 
+  const fixImageUrl = (url, title) => {
+    if (!url) {
+      return `https://picsum.photos/seed/${title}/400/300`;
+    }
+
+    if (url.includes("upload.wikimedia.org")) {
+      const fixed = url.replace(/\/\d+px-/, "/500px-");
+      return fixed;
+    }
+
+    return url;
+  };
+
   useEffect(() => {
-    fetch('/paintings.json')
-      .then(res => res.json())
-      .then(data => {
-        setPaintings(data);
+    const loadData = async () => {
+      try {
+        const res = await fetch('/paintings.json');
+        const data = await res.json();
+
+        const fixedData = data.map((item) => ({
+          ...item,
+          imageUrl: fixImageUrl(item.imageUrl, item.title)
+        }));
+
+        setPaintings(fixedData);
+      } catch (e) {
+        console.error(e);
+      } finally {
         setIsLoading(false);
-      })
-      .catch(() => {
-        setPaintings(apiBackupData);
-        setIsLoading(false);
-      });
+      }
+    };
+
+    loadData();
   }, []);
 
   useEffect(() => {
@@ -54,14 +75,12 @@ function App() {
     setTheme(prev => (prev === "light" ? "dark" : "light"));
   };
 
-  // 🔍 фильтрация
   const filteredPaintings = getFilteredPaintings(
     paintings,
     searchQuery,
     filters
   );
 
-  // 🔥 логика страниц
   const totalPages = Math.ceil(filteredPaintings.length / itemsPerPage);
 
   const startIndex = (currentPage - 1) * itemsPerPage;

@@ -1,11 +1,8 @@
-/* card.css */
-
 .size {
     position: relative;
     width: 100%;
-    max-width: 392px;
-    aspect-ratio: 392 / 260;
-
+    max-width: 396px;
+    aspect-ratio: 396 / 260;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
     border-radius: 8px;
@@ -36,7 +33,6 @@
     height: 85px;
     background-color: var(--card-bg);
     color: var(--text-color);
-    backdrop-filter: blur(2px);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 2;
     overflow: hidden;
