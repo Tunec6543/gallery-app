@@ -42,7 +42,7 @@ function App() {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const res = await fetch('/paintings.json');
+        const res = await fetch('/gallery-app/paintings.json')
         const data = await res.json();
 
         const fixedData = data.map((item) => ({
